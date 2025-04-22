@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Excel + AI Workshop - Master Excel & AI Skills in 2 Hours</title>
     
     <!-- Meta tags for SEO -->
     <meta name="description" content="Join our 2-hour live workshop to master Excel and AI skills. Learn to automate work, impress employers, and work smarter - not harder!">
     <meta name="keywords" content="Excel workshop, AI skills, data analysis, career development, professional training">
+    <meta name="theme-color" content="#4361ee">
     
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -24,11 +25,33 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <!-- Mobile Navigation Toggle -->
+    <button class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+        <i class="fas fa-bars"></i>
+    </button>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <ul class="mobile-nav-links">
+            <li><a href="#details">Workshop Details</a></li>
+            <li><a href="#mentor">Meet Your Mentor</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#checklist">Is This For You?</a></li>
+            <li><a href="#features">What You'll Learn</a></li>
+            <li><a href="#audience">Who Should Attend</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#register" class="nav-cta">Register Now</a></li>
+        </ul>
+    </div>
+    
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav-overlay"></div>
+    
     <!-- Header Section -->
     <header>
         <div class="container">
             <div class="hero">
-                <h1>🧑‍💻 CTRL Your Career with Excel + AI</h1>
+                <h1>👩‍💻 CTRL Your Career with Excel + AI</h1>
                 <p>Ready to Master Excel + AI… Even If You're Not from Tech?</p>
                 <p>Join Our Power-Packed 2-Hour Live Workshop and Unlock the Skills to Automate Work, Impress Employers, and Work Smarter — Not Harder!</p>
                 <p>No boring theory. No prior experience needed. Just pure, practical transformation 🚀</p>
@@ -84,7 +107,7 @@
             
             <div class="mentor-container">
                 <div class="mentor-image">
-                    <img src="images/mentor.jpg" alt="Shrishti Duhalani - Excel and AI Trainer">
+                    <img src="images/mentor.jpg" alt="Shrishti Duhalani - Excel and AI Trainer" loading="lazy">
                 </div>
                 <div class="mentor-info">
                     <h3>Shrishti Duhalani</h3>
@@ -307,15 +330,20 @@
         </div>
     </section>
     
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    
     <!-- Footer -->
     <footer>
         <div class="container">
             <div class="footer-content">
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                 </div>
                 <p class="copyright">© <span id="current-year">2025</span> Excel + AI Workshop. All Rights Reserved.</p>
             </div>
